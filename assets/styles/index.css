@@ -155,7 +155,7 @@ body {
 
 .preparation-time ul li {
     font-family: var(--font-secondary);
-    font-size: var(--space-200);
+    font-size: var(--text-preset-4-size);
     line-height: var(--lh15);
     font-weight: var(--fw4);
     padding-inline-start: var(--space-200);
