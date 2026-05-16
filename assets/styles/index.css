@@ -305,6 +305,17 @@ body {
     padding: var(--space-150) var(--space-400) var(--space-150) var(--space-100);
 }
 
+/* Primera fila */
+.nutrition-table tr:first-child td,
+.nutrition-table tr:first-child th {
+  padding-top: 0;
+}
+
+.nutrition-table tr:last-child td,
+.nutrition-table tr:last-child th {
+  padding-bottom: 0;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
