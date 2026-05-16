@@ -105,7 +105,8 @@ body {
 .recipe-header h1 {
     font-family: var(--font-primary);
     color: var(--stone-900);
-    font-size: 36px;
+    font-size: clamp(2.25rem, 5vw, 2.5rem);
+    font-weight: var(--fw4);
     line-height: var(--lh1);
     margin: 0;
 }
@@ -308,12 +309,15 @@ body {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
+  padding: 0;
+
   overflow: hidden;
-  clip: rect(0,0,0,0);
   white-space: nowrap;
+
   border: 0;
+
+  clip-path: inset(100%);
 }
 
 @media (min-width: 768px) {
