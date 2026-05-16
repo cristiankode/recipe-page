@@ -19,7 +19,7 @@ https://recipe-page.cristiancode.com
 ## Project Structure
 
 ```bash
-social-links-profile
+recipe-page
 ├── assets
 │   ├── images
 │   │   ├── image-omelette.jpeg
